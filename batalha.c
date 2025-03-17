@@ -20,7 +20,7 @@ void exibirTabuleiro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]) {
             if (tabuleiro[i][j] == 0) {
                 printf("~ "); // Água
             } else if (tabuleiro[i][j] == 3) {
-                printf("S "); // Navio (oculto para o jogador)
+                printf("N "); // Navio (oculto para o jogador)
             } else if (tabuleiro[i][j] == 2) {
                 printf("X "); // Navio atingido
             }
